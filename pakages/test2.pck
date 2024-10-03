@@ -26,6 +26,10 @@ function t3 return varchar2 is
 begin
   return '3';
 end;
+function t4 return varchar2 is  
+begin
+  return '4';
+end;
 function getId return number
   is
   vCounter number;
